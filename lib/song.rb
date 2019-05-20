@@ -9,7 +9,7 @@ class Song
       @artist_name = artist_name
     end 
   
-    def self.create(name)
+    def self.create
      @@all <<  Song.new(name)
      return Song.new(name)
       
